@@ -29,6 +29,6 @@ public class TrackService {
     }
 
     public List<String> getSymbolicRepresentationOfTrack(String trackId) {
-        return track
+        return trackRepository.getSymbolicRepresentationOfTrack(trackId);
     }
 }
